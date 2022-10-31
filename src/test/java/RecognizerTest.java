@@ -16,6 +16,10 @@ class RecognizerTest {
     RecognizerTest() throws IOException {
     }
 
+    /*
+    Данный файл не является тестовым порытием. Просто скретчи для удобства разработки.
+     */
+
     File testDir = new File("src\\test\\resources\\imgs");
     File negTestDir = new File("src\\test\\resources\\wrong");
 

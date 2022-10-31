@@ -14,6 +14,10 @@ public class ScriptToCreateValuesMap {
     public static final Integer[] SIZESRANK = {31, 31};
     public static final Integer[] SIZESSUIT = {23, 21};
 
+    /*
+    Здесь я заполнял словарь шаблонов для сравнения
+     */
+
     public static Map<String, String> getValuesMapFromFileName() throws IOException {
         Map<String, String> mapToSerialize = new HashMap<>();
 
